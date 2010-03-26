@@ -1,5 +1,8 @@
 <?php
-
+/*
+ * Copyright 2010 Oliver C Dodd http://01001111.net
+ * Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
+ */
 class LoremIpsum {
 
 	/* The Lorem Ipsum Common Paragraph */
@@ -108,7 +111,7 @@ class LoremIpsum {
 	/**
 	 * Get a paragraph
 	 * 
-	 * @useStandard - use the common Lorem Ipsum paragraph?
+	 * @useStandard - get the standard Lorem Ipsum paragraph?
 	 */
 	public function paragraph($useStandard=false) {
 		$s = "";
@@ -125,7 +128,7 @@ class LoremIpsum {
 	 * 
 	 * @param count
 	 *            - the number of paragraphs
-	 * @useStandard - lead with the common Lorem Ipsum paragraph?
+	 * @useStandard - lead with the standard Lorem Ipsum paragraph?
 	 */
 	public function paragraphs($count, $useStandard=false) {
 		$s = "";
