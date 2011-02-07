@@ -84,7 +84,7 @@ class LoremIpsum {
 	public function sentence() {
 		// first word
 		$s = $this->randomWord();
-		$s = strtoupper(substr($s,0,1)) . substr($s,1);
+		$s = strtoupper(substr($s,0,1)) . substr($s,1) . " ";
 		// commas?
 		if (rand(0,1)) {
 			$r = rand(0,3) + 1;
